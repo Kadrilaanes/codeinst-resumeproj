@@ -146,6 +146,22 @@ h1, h2, h3, h4 {
     display: inline-block;
 }
 
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 /*-----------------------------------------Colors */
 
 .bg-color-name-title {
@@ -168,6 +184,23 @@ h1, h2, h3, h4 {
     background-color: #f5d33c;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+/*--------------------------------Three Reasons */
+
+.three-reasons-icon {
+    color: #e9861d;
+    font-size: 26px;
+}
+
+.three-reasons-heading {
+    margin-bottom: 22px;
+}
+
+
+
 /*---------------------- white space hack */
 .menucontainer {
     font-size: 0;
@@ -188,4 +221,3 @@ h1, h2, h3, h4 {
     background: rgb(83, 81, 81);
     background-color: rgb(83, 81, 81;
     }
-
