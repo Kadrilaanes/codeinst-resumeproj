@@ -156,12 +156,13 @@ h1, h2, h3, h4 {
     float: none;
 }
 
-.section-heading {
+.section-heading, .history-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
-}
+    margin-bottom: 40px; 
+    }
+
 /*-----------------------------------------Colors */
 
 .bg-color-name-title {
@@ -186,6 +187,11 @@ h1, h2, h3, h4 {
 
 .bg-color-three-reasons {
     background-color: #fff;
+}
+
+.bg-color-work-history {
+    background-color: #e9861d;
+    color: #fafafa;
 }
 
 /*--------------------------------Three Reasons */
@@ -255,6 +261,53 @@ h1, h2, h3, h4 {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/*----------------------------Work History */
+
+.history-heading {
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    content: '';
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    background: #fafafa;
+}
+
+.history-itmes {
+    margin-bottom: 30px;
 }
 
 
