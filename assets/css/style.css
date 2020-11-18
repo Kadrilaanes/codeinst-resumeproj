@@ -362,9 +362,17 @@ button[type="submit"] {
     margin: 0;
 }
 
+   /*-- Google Maps */
+
+div#map {
+    min-height: 360px;
+    }
+
 /*-------------------------Hover Color Change */
 
 .hvr-underline-from-center:before {
     background: rgb(83, 81, 81);
     background-color: rgb(83, 81, 81;
     }
+
+ 
